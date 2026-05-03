@@ -1,0 +1,20 @@
+{
+  "name": "suchana-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "crop:profile": "node ./scripts/crop-profile.js"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "4.10.1",
+    "sharp": "^0.32.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
