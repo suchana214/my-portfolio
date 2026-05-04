@@ -14,14 +14,20 @@ export default function About() {
     <section id="about" className="card">
       <h2>About</h2>
       <div className="about-top">
-        <div className="profile-pic">
-          <img
-            src={imgSrc}
-            alt="Suchana Dutta"
-            width={160}
-            height={160}
-            onError={(e) => { e.target.onerror = null; e.target.src = '/profile.svg' }}
-          />
+        <div className="profile-card">
+          <div className="profile-pic">
+            <img
+              src={imgSrc}
+              alt="Suchana Dutta"
+              width={160}
+              height={160}
+              onError={(e) => { e.target.onerror = null; e.target.src = '/profile.svg' }}
+            />
+          </div>
+          <div className="profile-label">
+            <div className="label-title">PROFILE PICTURE</div>
+            <div className="label-name">Suchana Dutta</div>
+          </div>
         </div>
         <div>
           <p>
@@ -31,6 +37,11 @@ export default function About() {
           </p>
           <div className="contact-quick">
             <div style={{color:'#475569',fontSize:'.95rem'}}>Course: B. Sc in Computer Science</div>
+          </div>
+
+          <div className="edu-status">
+            <div><strong>Current Year:</strong> 2nd Year</div>
+            <div><strong>Current Semester:</strong> 4th Semester</div>
           </div>
         </div>
       </div>

@@ -9,8 +9,8 @@ export default function Projects() {
           <h3>This portfolio</h3>
           <p>A responsive portfolio site built with React.js.</p>
           <div style={{display:'flex',gap:12,marginTop:8}}>
-            <a className="btn" href="https://github.com/suchana214" target="_blank" rel="noreferrer">View on GitHub</a>
-            <a className="btn ghost" href="#contact">Contact</a>
+            <a className="btn github" href="https://github.com/suchana214" target="_blank" rel="noreferrer">View on GitHub</a>
+            <a className="btn github" href="#contact">Contact</a>
           </div>
         </li>
       </ul>

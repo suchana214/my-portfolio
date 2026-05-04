@@ -12,11 +12,11 @@ export default function Contact() {
         <li><FaGithub style={{marginRight:8}}/> <strong>GitHub:</strong> <a href="https://github.com/suchana214" target="_blank" rel="noreferrer">suchana214</a></li>
         <li><FaLinkedin style={{marginRight:8}}/> <strong>LinkedIn:</strong> <a href="https://in.linkedin.com/in/suchana-dutta-1782b7379" target="_blank" rel="noreferrer">Suchana Dutta</a></li>
       </ul>
-      <div style={{marginTop:12,display:'flex',gap:12}}>
-        <a className="btn" href="mailto:duttaduttasuchana@gmail.com">Email Me</a>
-        <a className="btn" href="tel:8918615537">Call</a>
-        <a className="btn ghost" href="https://github.com/suchana214" target="_blank" rel="noreferrer">GitHub</a>
-        <a className="btn ghost" href="https://in.linkedin.com/in/suchana-dutta-1782b7379" target="_blank" rel="noreferrer">LinkedIn</a>
+      <div className="contact-actions">
+        <a className="btn github" href="mailto:duttaduttasuchana@gmail.com">Email Me</a>
+        <a className="btn github" href="tel:8918615537">Call</a>
+        <a className="btn github" href="https://github.com/suchana214" target="_blank" rel="noreferrer">GitHub</a>
+        <a className="btn github" href="https://in.linkedin.com/in/suchana-dutta-1782b7379" target="_blank" rel="noreferrer">LinkedIn</a>
       </div>
     </section>
   )
